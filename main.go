@@ -44,7 +44,7 @@ func main() {
 		fileValue += fmt.Sprintf("[%s %s](%s) \n", author, title, linkStr)
 		fileValue += fmt.Sprintf("%s \n", desc)
 	})
-	createFile(fileTopVal + fileDesc + fileValue)
+	createFile(fileTopVal + fileDesc + "\n" + fileValue)
 }
 
 func createFile(str string) {
