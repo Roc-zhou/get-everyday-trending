@@ -24,7 +24,6 @@ jobs:
           ./main
           git config user.name 'Roc-zhou'
           git config user.email 'roc.zhousir@gmaol.com'
-          git checkout master
           git add .
           git commit -m "Update from Github Action"
           git push origin master
