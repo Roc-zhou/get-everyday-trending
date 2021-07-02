@@ -10,7 +10,7 @@ name: Go
 #* * * * *
 on:
   schedule:
-    - cron: '45 02 * * *'
+    - cron: '* 23 * * *'
 
 jobs:
   clone:
